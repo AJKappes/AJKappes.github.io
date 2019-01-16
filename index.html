@@ -1,9 +1,22 @@
-
----
-layout: default
-title: Alexander J. Kappes
----
-<div class="blurb">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- below is the stylesheet link -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="/cv">CV</a></li>
+        		<li><a href="/blog">Blog</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+		<div class="blurb">
 	
 	<h2>Hello and Welcome!</h2>
 		<p>My name is Alex Kappes and I'm currently a 2<sup>nd</sup> year Ph.D. student in the School of Economic Sciences at Washington State University. I work at the intersection of producer and consumer theory, statistics, and data science. My research interests include agricultural and natural resource economics, global health and development, industrial organization, and econometrics with focus on machine and reinforcement learning as a subspace. (Secretly, I am extremely interested in somehow bridging our evolving knowledge of quantum mechanics to consumer decision-making as a way to provide behavioral insight at the natural particle level; because we are just a bunch of atoms containing emotional electrons, among other things...).</p> 
@@ -12,5 +25,13 @@ title: Alexander J. Kappes
 				
 		<p>The purpose of this site is to provide the usual "academic site" content like my curriculum vitae, as well as research and teaching information, and to also serve as a collection space for ideas and content I find interesting and noteworthy. Again, welcome!
 
-</div><!-- /.blurb -->
-
+		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:alexander.kappes@wsu.edu">email</a></li>
+        		<li><a href="https://github.com/AJKappes">github.com/AJKappes</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
