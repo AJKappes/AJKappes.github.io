@@ -43,5 +43,6 @@ ul.posts li {
 }
 
 iframe {
-    margin: 100px auto 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
