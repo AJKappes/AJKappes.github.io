@@ -43,5 +43,6 @@ ul.posts li {
 }
 
 iframe {
-    margin-left: 350px;
+    display: block;
+    margin: auto;
 }
